@@ -13,9 +13,34 @@ img {
 .recipe li,
 p {
   font-size: 18px;
+  line-height: 40px;
 }
 
 .recipe {
   width: 70%;
   margin: auto;
+}
+
+.recipeContainer {
+  display: flex;
+}
+
+.recipeLinks {
+  list-style: none;
+  float: left;
+}
+
+.recipeLinks li {
+  float: left;
+  padding-left: 50px;
+  padding-top: 2%;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  padding-left: 50px;
 }
