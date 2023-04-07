@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  border-radius: 360%;
+}
+
+.recipe li,
+p {
+  font-size: 18px;
+}
+
+.recipe {
+  width: 70%;
+  margin: auto;
+}
