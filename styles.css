@@ -2,17 +2,25 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: rgb(234, 251, 63);
+  background: radial-gradient(
+    circle,
+    rgba(234, 251, 63, 0.804359243697479) 0%,
+    rgba(212, 103, 19, 1) 100%
+  );
 }
 
 img {
   width: 250px;
   height: 300px;
   border-radius: 360%;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .recipe li,
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 40px;
 }
 
@@ -23,6 +31,8 @@ p {
 
 .recipeContainer {
   display: flex;
+  color: #fff;
+  background-color: #e1c16e;
 }
 
 .recipeLinks {
@@ -33,14 +43,33 @@ p {
 .recipeLinks li {
   float: left;
   padding-left: 50px;
-  padding-top: 2%;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(234, 251, 63);
 }
 
 .title {
   padding-left: 50px;
+}
+
+.recipeTitle {
+  font-size: 50px;
+}
+h3 {
+  font-size: 25px;
+}
+
+.odinLogo {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
